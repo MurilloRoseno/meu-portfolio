@@ -1,0 +1,7 @@
+﻿{
+  "name": "murillo-roseno-portfolio",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": { "dev": "astro dev", "start": "astro dev", "build": "astro build", "preview": "astro preview", "astro": "astro" },
+  "dependencies": { "astro": "^4.11.3", "astro-icon": "^1.1.0" }
+}

@@ -1,0 +1,11 @@
+﻿# Environment variables
+.env
+# Dependencies
+node_modules/
+# Build artifacts
+dist/
+.astro/
+# OS files
+.DS_Store
+# Logs
+npm-debug.log*

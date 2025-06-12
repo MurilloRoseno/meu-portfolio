@@ -1,0 +1,20 @@
+﻿---
+import { Icon } from "astro-icon/components";
+interface Props { title: string; description: string; lang: "pt-br" | "en-us"; }
+const { title, description, lang } = Astro.props;
+---
+<!doctype html>
+<html lang={lang} class="scroll-smooth">
+<head>
+<meta charset="UTF-8" /><meta name="description" content={description} /><meta name="viewport" content="width=device-width" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+<title>{title}</title><meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:image" content="https://avatars.githubusercontent.com/u/9678132?v=4" /><meta property="twitter:card" content="summary_large_image" />
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+<slot />
+<style is:global>
+body { font-family: "Inter", sans-serif; }
+.gradient-text { background: linear-gradient(to right, #34d399, #60a5fa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent; }
+</style>
+</body>
+</html>

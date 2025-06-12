@@ -1,0 +1,11 @@
+﻿{
+  "lang": "en-us",
+  "pageTitle": "Murillo Roseno | Development Portfolio",
+  "metaDescription": "Portfolio of Murillo Roseno, a software developer focused on efficient solutions. Check out my latest projects.",
+  "bio": "Software Developer focused on creating efficient and scalable solutions. Back-end specialist with experience in Python and JavaScript, turning ideas into robust and functional code.",
+  "projectsTitle": "My Projects",
+  "projectsDescription": "A selection of my most recent work, including personal projects and studies. All code is available on my GitHub.",
+  "footerText": "Developed with Astro and ❤️",
+  "repoDescriptionFallback": "An awesome project with no description yet.",
+  "lastUpdated": "Last updated on"
+}
